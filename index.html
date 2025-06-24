@@ -4,8 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Viewer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/75cae22ba1.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <header id="weather_viewer_header">
+        <h1 id="weather_viewer_heading">Weather Viewer</h1>
+    </header>
+    <section id="searchbar_section">
+        <input type="text" placeholder="Search by city name" id="searchbar" name="searchbar"/>
+        <button id="search_button"> Search </button>
+        <button id="current_location_button"><i class="fa-solid fa-location-crosshairs" id="current_location_icon"></i></button>
+    </section>
+    <section id="weather_display_section">
+        <h1 id="todays_weather_heading">Today's Weather</h1>
+        <div id="todays_weather_display">
+            <span id="date_label">Date:</span>  <span id="date_data">24/0/2025</span>
+            <span id="temp_label">Temperature:</span>   <span id="temp_data">27<sup>o</sup>C</span>
+            <span id="humidity_label">Humidity:</span>  <span id="humidity_data">76%</span><br><br>
+            <span id="location_label">Location:</span>  <span id="location_data">Pune</span>
+            <span id="wind_label">Wind:</span>  <span id="wind_data">2 m/hr</span>
+        </div>
+        <div id="five_days_forecast_section">
+            <h1 id="five_days_forecast_heading">5 Days Weather Forecast</h1>
+            <div id="five_days_forecast_div">
+                <div id="current_day_plus_one_div">
+                    <span id="day_plus_one_date">25/06/2025</span>
+                    <br><br>
+                    <i class="fa-solid fa-temperature-low"></i>:
+                    <span id="day_plus_one_temp_data">23<sup>o</sup>C</span> &nbsp &nbsp &nbsp
+                    <i class="fa-solid fa-wind"></i>:
+                    <span id="day_plus_one_wind_data">2 m/hr</span> &nbsp &nbsp &nbsp
+                    <i class="fa-solid fa-droplet"></i>:
+                    <span id="day_plus_one_humidity_data">76%</span>&nbsp &nbsp &nbsp
+                </div>
+                <div id="current_day_plus_two_div">
+                    <span id="day_plus_two_date">25/06/2025</span>
+                    <br><br>
+                    <i class="fa-solid fa-temperature-low"></i>:
+                    <span id="day_plus_two_temp_data">23<sup>o</sup>C</span> &nbsp &nbsp &nbsp
+                    <i class="fa-solid fa-wind"></i>:
+                    <span id="day_plus_two_wind_data">2 m/hr</span> &nbsp &nbsp &nbsp
+                    <i class="fa-solid fa-droplet"></i>:
+                    <span id="day_plus_two_humidity_data">76%</span>&nbsp &nbsp &nbsp
+                </div>
+                <div id="current_day_plus_three_div">
+                    <span id="day_plus_three_date">25/06/2025</span>
+                    <br><br>
+                    <i class="fa-solid fa-temperature-low"></i>:
+                    <span id="day_plus_three_temp_data">23<sup>o</sup>C</span> &nbsp &nbsp &nbsp
+                    <i class="fa-solid fa-wind"></i>:
+                    <span id="day_plus_three_wind_data">2 m/hr</span> &nbsp &nbsp &nbsp
+                    <i class="fa-solid fa-droplet"></i>:
+                    <span id="day_plus_three_humidity_data">76%</span>&nbsp &nbsp &nbsp
+                </div>
+                <div id="current_day_plus_four_div">
+                    <span id="day_plus_four_date">25/06/2025</span>
+                    <br><br>
+                    <i class="fa-solid fa-temperature-low"></i>:
+                    <span id="day_plus_four_temp_data">23<sup>o</sup>C</span> &nbsp &nbsp &nbsp
+                    <i class="fa-solid fa-wind"></i>:
+                    <span id="day_plus_four_wind_data">2 m/hr</span> &nbsp &nbsp &nbsp
+                    <i class="fa-solid fa-droplet"></i>:
+                    <span id="day_plus_four_humidity_data">76%</span>&nbsp &nbsp &nbsp
+                </div>
+                <div id="current_day_plus_five_div">
+                    <span id="day_plus_five_date">25/06/2025</span>
+                    <br><br>
+                    <i class="fa-solid fa-temperature-low"></i>:
+                    <span id="day_plus_five_temp_data">23<sup>o</sup>C</span> &nbsp &nbsp &nbsp
+                    <i class="fa-solid fa-wind"></i>:
+                    <span id="day_plus_five_wind_data">2 m/hr</span> &nbsp &nbsp &nbsp
+                    <i class="fa-solid fa-droplet"></i>:
+                    <span id="day_plus_five_humidity_data">76%</span>&nbsp &nbsp &nbsp
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
