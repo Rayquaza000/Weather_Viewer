@@ -119,4 +119,4 @@ function error() {
   alert("Sorry, no position available.");
 }
 
-//searchbar.value=city;
+
