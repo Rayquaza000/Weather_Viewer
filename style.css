@@ -1,6 +1,7 @@
 *{
     padding:0px;
     margin:0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #weather_viewer_header{
     width: 100%;
@@ -82,43 +83,43 @@
     padding:40px;
 }
 #date_label{
-    width:120px;
+    width:130px;
     display:inline-block;
 }
 #temp_label{
-    width:120px;
+    width:130px;
     display:inline-block;
 }
 #humidity_label{
-    width:120px;
+    width:130px;
     display:inline-block;
 }
 #location_label{
-    width:120px;
+    width:130px;
     display:inline-block;
-}
+}   
 #wind_label{
-    width:120px;
+    width:130px;
     display:inline-block;
 } 
 #date_data{
-    width:150px;
+    width:200px;
     display:inline-block;
 }
 #temp_data{
-    width:150px;
+    width:200px;
     display:inline-block;
 }
 #humidity_data{
-    width:150px;
+    width:200px;
     display:inline-block;
 }
 #location_data{
-    width:150px;
+    width:200px;
     display:inline-block;
 }
 #wind_data{
-    width:150px;
+    width:200px;
     display:inline-block;
 } 
 #five_days_forecast_heading{
