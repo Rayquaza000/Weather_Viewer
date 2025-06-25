@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Viewer</title>
-    <link rel="stylesheet" href="style.css">
     
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="ipadmini.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="iphonese.css">
+    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="style.css">
     <script src="https://kit.fontawesome.com/75cae22ba1.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -26,10 +28,10 @@
         <h1 id="todays_weather_heading">Today's Weather</h1>
         <div id="todays_weather_display">
             <!--Display the data of current day -->
-            <span id="date_label">Date:</span>  <span id="date_data"></span>
-            <span id="temp_label">Temperature:</span>   <span id="temp_data"></span>
-            <span id="humidity_label">Humidity:</span>  <span id="humidity_data"></span><br><br>
-            <span id="location_label">Location:</span>  <span id="location_data"></span>
+            <span id="date_label">Date:</span>  <span id="date_data"></span> &nbsp; &nbsp;
+            <span id="location_label">Location:</span>  <span id="location_data"></span> &nbsp; &nbsp;
+            <span id="temp_label">Temperature:</span>   <span id="temp_data"></span> &nbsp; &nbsp;
+            <span id="humidity_label">Humidity:</span>  <span id="humidity_data"></span> &nbsp; &nbsp;
             <span id="wind_label">Wind:</span>  <span id="wind_data"></span>
         </div>
         <!--Display weather of additional five days-->

@@ -47,17 +47,17 @@ let city;
 //get todays date
 let date=new Date();
 //set date for each block
-today_date_data.textContent=date.getDate()+"/ "+(date.getMonth()+1)+"/ "+date.getFullYear();
+today_date_data.textContent=date.getDate()+"/"+(date.getMonth()+1)+"/"+date.getFullYear();
 date.setDate(date.getDate()+1);
-day_plus_one_date.textContent=date.getDate()+"/ "+(date.getMonth()+1)+"/ "+date.getFullYear();
+day_plus_one_date.textContent=date.getDate()+"/"+(date.getMonth()+1)+"/"+date.getFullYear();
 date.setDate(date.getDate()+1);
-day_plus_two_date.textContent=date.getDate()+"/ "+(date.getMonth()+1)+"/ "+date.getFullYear();
+day_plus_two_date.textContent=date.getDate()+"/"+(date.getMonth()+1)+"/"+date.getFullYear();
 date.setDate(date.getDate()+1);
-day_plus_three_date.textContent=date.getDate()+"/ "+(date.getMonth()+1)+"/ "+date.getFullYear();
+day_plus_three_date.textContent=date.getDate()+"/"+(date.getMonth()+1)+"/"+date.getFullYear();
 date.setDate(date.getDate()+1);
-day_plus_four_date.textContent=date.getDate()+"/ "+(date.getMonth()+1)+"/ "+date.getFullYear();
+day_plus_four_date.textContent=date.getDate()+"/"+(date.getMonth()+1)+"/"+date.getFullYear();
 date.setDate(date.getDate()+1);
-day_plus_five_date.textContent=date.getDate()+"/ "+(date.getMonth()+1)+"/ "+date.getFullYear();
+day_plus_five_date.textContent=date.getDate()+"/"+(date.getMonth()+1)+"/"+date.getFullYear();
 
 //check if browser has geolocation api
 if (navigator.geolocation) {

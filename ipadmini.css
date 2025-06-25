@@ -5,7 +5,7 @@
 }
 #weather_viewer_header{
     width: 100%;
-    height:100px;
+    height:80px;
     background-color: #604a7b;
     color: white;
     margin:0px;
@@ -79,7 +79,7 @@
     margin-left:20px;
     margin-right:20px;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 14px;
     padding:40px;
 }
 #date_label{
@@ -145,8 +145,8 @@
     border-radius: 10px;
     margin-bottom: 15px;
     position: relative;
-    font-size: 24px;
-    font-weight:bold;
+    font-size: 18px;
+    font-weight: bold;
     padding-top:20px;
     display:inline-block;
     
@@ -161,7 +161,7 @@
     border-radius: 10px;
     margin-bottom: 15px;
     position: relative;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     padding-top:20px;
     display:inline-block;
@@ -176,7 +176,7 @@
     border-radius: 10px;
     margin-bottom: 15px;
     position: relative;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     padding-top:20px;
     display:inline-block;
@@ -191,7 +191,7 @@
     border-radius: 10px;
     margin-bottom: 15px;
     position: relative;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     padding-top:20px;
     display:inline-block;
@@ -206,11 +206,12 @@
     border-radius: 10px;
     margin-bottom: 15px;
     position: relative;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     padding-top:20px;
     display:inline-block;
 }
 .fa-solid{
-    color:black
+    color:black;
+    margin-top: 20px;
 }
