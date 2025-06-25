@@ -2,6 +2,8 @@
 const searchbar=document.getElementById("searchbar");
 const search_button=document.getElementById("search_button")
 const current_location_button=document.getElementById("current_location_button");
+const weather_condition_icon=document.getElementById("weather_condition_icon");
+const weather_condition_text=document.getElementById("weather_condition_text");
 
 
 const today_date_data=document.getElementById("date_data");
@@ -92,6 +94,8 @@ async function success(position) {
              today_temp_data.textContent=temperature1+"\u00B0 C";
              today_wind_data.textContent=data1.current.wind_mph+" mph";
              today_humidity_data.textContent=data1.current.humidity+"%";
+             weather_condition_icon.src=data1.current.condition.icon;
+             weather_condition_text.textContent=data1.current.condition.text;
 
             day_plus_one_temp_data.textContent=data1.forecast.forecastday[0].day.avgtemp_c;
             day_plus_one_humidity_data.textContent=data1.forecast.forecastday[0].day.avghumidity;
@@ -139,6 +143,8 @@ search_button.addEventListener("click",function(){
         today_temp_data.textContent=data.current.temp_c+"\u00B0 C";
         today_wind_data.textContent=data.current.wind_mph+" mph";
         today_humidity_data.textContent=data.current.humidity+"%";
+        weather_condition_icon.src=data.current.condition.icon;
+        weather_condition_text.textContent=data.current.condition.text;
 
         day_plus_one_temp_data.textContent=data.forecast.forecastday[0].day.avgtemp_c;
         day_plus_one_humidity_data.textContent=data.forecast.forecastday[0].day.avghumidity;
@@ -183,6 +189,8 @@ async function success1(position) {
              today_temp_data.textContent=temperature1+"\u00B0 C";
              today_wind_data.textContent=data1.current.wind_mph+" mph";
              today_humidity_data.textContent=data1.current.humidity+"%";
+             weather_condition_icon.src=data1.current.condition.icon;
+             weather_condition_text.textContent=data1.current.condition.text;
 
             day_plus_one_temp_data.textContent=data1.forecast.forecastday[0].day.avgtemp_c;
             day_plus_one_humidity_data.textContent=data1.forecast.forecastday[0].day.avghumidity;

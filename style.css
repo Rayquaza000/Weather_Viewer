@@ -214,3 +214,7 @@
 .fa-solid{
     color:black
 }
+#weather_condition_text{
+    width:max-content;
+    display:inline-block;
+}
